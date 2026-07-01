@@ -1,0 +1,7 @@
+{
+  "name": "corporateApp_carmelo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
