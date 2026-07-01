@@ -4,4 +4,5 @@ nombre: string;
 unidades: number;
 precio: number;
 foto: string;
+disponible:boolean;
 }
