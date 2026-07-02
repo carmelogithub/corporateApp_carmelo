@@ -11,15 +11,29 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-item>
-<ion-input name="correo" [(ngModel)]="correo"  placeholder="Correo">
+<ion-button (click)="guardar()">
+Probar servicio guardar mensaje
+</ion-button>
+
+<ion-button (click)="leer()">
+Probar servicio leer mensaje
+</ion-button>
+
+<ion-button (click)="consultar()">
+Probar servicio consultar plataforma
+</ion-button>
+
+<ion-item>
+<ion-input  [(ngModel)]="correo" name="correo"  placeholder="Correo">
 </ion-input>
 </ion-item>
 <ion-item>
-<ion-textarea name="mensaje" [(ngModel)]="mensaje">
+<ion-textarea  [(ngModel)]="mensaje" name="mensaje">
 </ion-textarea>
 </ion-item>
 <ion-button (click)="enviar()">
 Enviar
 </ion-button>
+
+
 </ion-content>
